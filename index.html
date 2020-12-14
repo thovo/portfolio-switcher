@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio Switcher</title>
+		<meta
+			name="description"
+			content="This a simple website use minimum HTML, CSS, no JS actually to show you I am working a project"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+		<style>
+			html,
+			body {
+				height: 100%;
+				font-family: 'Poppins', sans-serif;
+			}
+			body {
+				padding: 10px;
+			}
+			section {
+				margin: 20px auto;
+			}
+			.project {
+				display: flex;
+				flex-direction: column;
+			}
+			.project-name {
+				width: 100%;
+			}
+			.react {
+				color: rgb(0, 216, 255);
+			}
+			.angular {
+				color: rgb(221, 27, 22);
+			}
+			.vue {
+				color: rgb(65, 184, 131);
+			}
+			.in-progress {
+				color: rgb(46, 204, 113);
+			}
+		</style>
+	</head>
+	<body>
+		<section class="introduction">
+			<h1>Hi, I am Raphaël Tuong Tho VO!</h1>
+			<h2>I am a Front End Developer and you are currently in my portfolio switcher page.</h2>
+			<span>There are several reasons why I created 3(may be more) versions of my portfolio:</span>
+			<ol>
+				<li>To learn and get more experiences</li>
+				<li>My old portfolio is actually "old", see <a href="http://thovo.github.io/">here</a></li>
+				<li>Refresh myself from my life</li>
+				<li>
+					A lot of companies said I can't work for them because I didn't have enough years of experience with
+					____ (put your favorite name in). This stressed me a lot!
+				</li>
+				<li>...etc (If I remember something else to complain!)</li>
+			</ol>
+		</section>
+		<section class="main">
+			<span>So here you are, you come into my list of my portfolio</span>
+			<ol class="projects">
+				<li>
+					<div class="project">
+						<span class="project-name react">ReactJS</span>
+						<span class="status in-progress">
+							Status: In progress (result of random choice between 1 and 3)
+						</span>
+					</div>
+				</li>
+				<li>
+					<div class="project">
+						<span class="project-name angular">Angular</span>
+						<span class="status in-my-mind">Status: In my mind</span>
+					</div>
+				</li>
+				<li>
+					<div class="project in-my-mind">
+						<span class="project-name vue">VueJS</span>
+						<span class="status in-my-mind">Status: In my mind</span>
+					</div>
+				</li>
+			</ol>
+		</section>
+
+		<section class="future">
+			<span>And some plan for the future update of this page:</span>
+			<ol class="plan">
+				<li>
+					Apply Terminal theme, it is cool
+					<a href="https://terminal.jcubic.pl/">https://terminal.jcubic.pl/</a>
+				</li>
+				<li>
+					Add the use of Figlet, I am nerd, maybe
+					<a href="https://github.com/scottgonzalez/figlet-js">https://github.com/scottgonzalez/figlet-js</a>
+				</li>
+				<li>
+					Add support for localization , I can speak 3 languages(English, French, Vietnamese), show off to my
+					girlfriend
+				</li>
+				<li>Propose my girlfriend in 3 languages(HTML, CSS, JS)</li>
+			</ol>
+			<span class="contact">
+				If you want to contact me, drop me a line at my Github page:
+				<a href="https://github.com/thovo">https://github.com/thovo</a>
+			</span>
+		</section>
+	</body>
+</html>
